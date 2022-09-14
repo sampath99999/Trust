@@ -69,7 +69,7 @@ html {
 
 .section1 {
   display: flex;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+  background: #010b2d;
   padding: 0px 50px;
 }
 .section1 .left {
