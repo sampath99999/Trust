@@ -42,12 +42,23 @@ html {
             ul{
                 list-style-type: none;
                 display: flex;
+                align-items: center;
                 li{
                     margin-right: 20px;
-                    font-size: 20px;
-                    color: #8ebf42;
+                    font-size: 18px;
+                    color: #707070;
                     cursor: pointer;
-                    font-weight: 500;
+                    font-weight: 400;
+                }
+                .btn{
+                    background-color: #8ebf42;
+                    color: rgb(233, 233, 233);
+                    padding: 8px 30px;
+                    border-radius: 20px;
+                }
+                .btn:hover{
+                    color: white;
+                    scale: 1;
                 }
                 li:hover{
                     color:#1c87c9;
